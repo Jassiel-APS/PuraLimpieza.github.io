@@ -1,0 +1,45 @@
+/* Fondo de sección de reseñas */
+#Reseñas {
+  background-color: #013c5a;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Cards limpias y redondeadas */
+#Reseñas .card {
+  border: none;
+  background: #fff;
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Estrellas */
+#Reseñas .text-warning {
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+}
+
+/* Textos */
+#Reseñas .card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+#Reseñas .card small {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+#Reseñas .card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Responsive: 1 card en móviles, 2 en escritorio */
+@media (max-width: 767px) {
+  #Reseñas .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
